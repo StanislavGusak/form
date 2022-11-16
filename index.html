@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <label for="fname" >Повне ім'я</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="psw">Пароль</label>
+        <input type="password" id="psw" name="psw"><br><br>
+        <label for="confirm">Підтвердження пароля</label>
+        <input type="password" id="confirm" name="confirm"><br><br>
+
+        <label>Стать</label><br>
+        <label for="man">Чоловіча</label>
+        <input type="radio" id="man" name="man">
+        <label for="woman">Жіноча</label>
+        <input type="radio" id="woman" name="woman"><br><br>
+        
+        <label for="age">Вік</label>
+        <input type="number" id="age" name="age" min="1" max="100"><br><br>
+        
+        <label for="course">Курс</label>
+        <select name="course" id="course">
+            <option value="front-end">Front-End</option>
+            <option value="back-end">Back-End</option>
+            <option value="project-management">Project Management</option>
+            <option value="qa-manual">QA-Manual</option>
+        </select><br><br>
+
+        <label for="address">Повна адреса</label>
+        <textarea name="full-address" id="address" cols="30" rows="10"></textarea><br><br>
+
+        <input type="checkbox" id="agree" name="agree">
+        <label for="agree">Я погоджуюсь з обробкою персональних даних</label><br><br>
+        
+        
+        <button>Зареєструватися</button>
+        
+    
+        <input type="reset">
+       
+        
+       
+    </form>
+</body>
+</html>
