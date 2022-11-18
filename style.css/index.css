@@ -1,6 +1,6 @@
 body {
     font-family: Tahoma, sans-serif;
-    background-color: rgb(247, 174, 92);
+    background-color: rgb(252, 250, 248);
 }
 
 h1 {
@@ -17,7 +17,8 @@ form {
     background-color: rgb(217, 230, 170);
     padding: 20px;
     width: 450px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+    height: 590px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
 }
 
 .group {
@@ -42,11 +43,11 @@ label {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
 }
 
 .inner {
-    margin-bottom: 10px;
+    margin: 10px auto;
     padding-left: 15px;
 }
 
@@ -57,4 +58,84 @@ h2 {
     padding-left: 5px;
     padding-bottom: 5px;
     text-transform: uppercase;
+}
+
+span {
+    padding-left: 100px;
+}
+
+.number {
+    padding-left: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82)
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding-left: 10px;
+}
+
+.course {
+    padding-left: 10px;
+}
+
+select {
+    margin-top: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82); 
+}
+
+.address {
+    padding-left: 15px;
+}
+
+textarea {
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+}
+
+.agree {
+  margin-left: 10px;
+}
+
+.button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    width: 150px;
+    padding: 10px;
+    background-color: rgba(22, 4, 34, 0.877);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid rgba(22, 4, 34, 0.877);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
